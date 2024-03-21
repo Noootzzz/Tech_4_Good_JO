@@ -3,3 +3,38 @@
     padding: 0;
     margin: 0;
 }
+
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+.contact a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+.social {
+    list-style-type: none; 
+    margin: 0;
+    & :hover{
+        cursor: pointer;
+        color: #393939;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+}
+
+.social li {
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.social li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+

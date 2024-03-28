@@ -1,52 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/home.css">
-</head>
-<body>
-
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Promotion</a></li>
-                    <li><img src="" alt=""></li>
-                    <li><a href="#">Data</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Connexion</a></li>
-                </ul>
-            </nav>
-        </header>
+<?php 
 
 
+    require('haut_page.php');
+    require('header.php');
 
-<footer>
+?>
 
-        <div class="contact">
-            <a href="contact.html">Nous contacter</a>
-        </div>
+<main>
 
-        <div class="social">
-            <li><a href="#">Youtube</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Facebook</a></li>
-        </div>
+    <section id="left-section">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum cupiditate mollitia commodi quaerat modi error debitis, nam sed voluptatem facilis quo ab itaque sint ipsum dicta laboriosam, consequuntur magni.
+        Corrupti nisi mollitia quidem repudiandae adipisci ducimus sint facere, quasi blanditiis dolor, aliquam corporis nulla esse exercitationem libero sit velit asperiores! Ab, quos nihil! Natus iusto odio optio consectetur tempore.
+        Ipsum itaque natus explicabo ab odio quas nostrum expedita ipsam, recusandae consequuntur harum cupiditate praesentium quisquam quidem! Iure porro libero omnis</p>
+    </section>
 
-        <div class="copyright">
-            <p>© 2024 Copyright: Esco </p>
-        </div>
+    <div id="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U-l4ya3ejko?si=Glxz1g164KhLnuIH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 
-
-</footer> 
-
+</main>
 
 
+<?php     
+    require('footer.php');
+    require('bas_page.php');
 
-
-</body>
-</html>
+?>

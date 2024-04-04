@@ -38,50 +38,87 @@
 body {
     font-family: sans-serif;
     min-height: 100vh;
-    background-color: blue;
+    background-image: url(../img/home_bg.jpg);
+    background-size: cover; 
+    background-position: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+/*rendre le fond sombre*/
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); 
+    z-index: -1;
 }
 
 header {
-    background-color: red;
-    min-height: 15vh;
+    font-family: var(--font);
+    width: auto;
+    margin-top: 5vh;
+    padding: 0px 7vw;
+    z-index: 100;
+}
+
+header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-header nav ul{
+header nav img{
+    width: 10%;
+    z-index: 100;
+}
+
+header nav ul {
+    display: flex;
     list-style: none;
-    min-width: 100vw;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
-header nav ul li a{
-    color: white;
+header nav ul li a {
+    color: var(--white);
+    margin: 0px 2vw;
     text-decoration: none;
+    font-size: var(--title-font-size);
 }
 
-header nav ul li img {
-    min-width: 5vw;
-    min-height: 10vh;
-    transition: .4s;
+#nav-button {
+    margin: 0px 1vw;
 }
 
-header nav ul li {
-    width: 7vw;
+#nav-button a{
+    color: var(--white);
+    text-decoration: none;
+    padding: .5vw 2.5vw;
+    font-size: var(--title-font-size);
+    border: 1px solid var(--white);
+    border-radius: 40px;
 }
 
-header nav ul li img {
-    width: 100%;
+#nav-button a:nth-child(1) {
+    backdrop-filter: blur(8px);
 }
+
+#nav-button a:nth-child(2) {
+    background-color: var(--orange);
+}
+
 
 main {
     display: flex;
     width: 100vw;
     min-height: 70vh;
+    font-family: var(--font);
+    z-index: 100;
+    color: var(--white);
 }
 
 
@@ -107,9 +144,10 @@ main {
 
 
 footer {
-    background-color: #333; 
-    color: #fff; 
+    background-color: rgba(51, 51, 51, 0.674);
+    color: var(--white); 
     padding: 20px;
     text-align: center;
     margin-top: auto;
+    z-index: 2;
 }

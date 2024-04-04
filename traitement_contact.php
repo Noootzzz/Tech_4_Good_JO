@@ -19,11 +19,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             header("Location: home.php");
             exit();
-        } else {
-
-        }
-    } else {
-
-    }
+        } 
+    } 
+    
+    header('Location: contact.php');
+    exit;
 }
 ?>

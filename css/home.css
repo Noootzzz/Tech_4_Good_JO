@@ -56,6 +56,9 @@ body::after {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.35); 
     z-index: -1;
+
+    overflow-x: hidden;
+
 }
 
 header {
@@ -114,7 +117,6 @@ header nav ul li a {
 
 main {
     display: flex;
-    width: 100vw;
     min-height: 70vh;
     font-family: var(--font);
     z-index: 100;

@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h2>Connexion</h2>
     <?php if (isset($error)) : ?>
-        <p><?php echo $error; ?></p>
+        <p><?= $error; ?></p>
     <?php endif; ?>
     <form action="login.php" method="POST">
         <label for="pseudo">Nom d'utilisateur</label>

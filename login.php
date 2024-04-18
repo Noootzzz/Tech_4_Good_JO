@@ -54,15 +54,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <form action="login.php" method="POST">
 <div class="wrapper">
     <div class="input-data">
-        <label for="pseudo">Nom d'utilisateur</label>
-        <input type="text" name="pseudo" id="pseudo" required>
+        <label for="pseudo"></label>
+        <input placeholder="Pseudo" type="text" name="pseudo" id="pseudo" required>
         <div class="underline"></div>
     </div>
 </div>
 <div class= "wrapper">
     <div class="input-data">
-            <label for="password">Mot de passe</label>
-            <input type="password" name="password" id="password" required>
+            <label for="password"></label>
+            <input placeholder="Mot De Passe" type="password" name="password" id="password" required>
             <div class="underline"></div>
     </div>
 </div>

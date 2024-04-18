@@ -7,7 +7,7 @@
     font-family: var(--font);
 }
 
-body{
+body {
     background-image: url(../img/home_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,9 +15,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 
-.login{
+.login {
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -25,79 +26,104 @@ body{
     align-items: center;
     border-radius: 50px;
     border: 1px solid rgba(128, 128, 128, 0.432);
+    padding: 20px; /* Ajout de padding */
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     align-items: space-between;
-    margin: 20vh;
 
 }
 
-form input{
-    margin: 0vh 0vh 5vh 0vh;
-    
+form input {
+    margin-bottom: 5vh; /* Modification de la marge */
+    padding: 10px; /* Ajout de padding */
+    border-radius: 5px; /* Modification de la bordure */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Modification de la bordure */
+    font-size: 16px; /* Modification de la taille de police */
+    outline: none; /* Suppression de la bordure lors du focus */
 }
 
-
-
-
-.wrapper{
-width: 450px;
-padding: 30px;
-
+.wrapper {
+    width: 100%; /* Modification de la largeur */
+    max-width: 450px; /* Ajout d'une largeur maximale */
 }
 
-.wrapper .input-data{
-height: 40px;
-width: 100%;
-position: relative;
-border-radius: 10%;
+.wrapper .input-data {
+    margin-bottom: 20px; /* Modification de la marge */
 }
 
-.wrapper .input-data input{
-height: 100%;
-width: 100%;
-border: none;
-font-size: 17px;
+.wrapper .input-data input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
 }
 
 .input-data input:focus ~ label,
-.input-data input:valid ~ label{
-transform: translateY(-20px);
-font-size: 15px;
-color: #4158d0;
+.input-data input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #4158d0;
 }
 
-.wrapper .input-data label{
-position: absolute;
-bottom: 10px;
-left: 0;
-color: rgb(0, 0, 0);
-pointer-events: none;
-transition: all 0.3s ease;
+.wrapper .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: rgba(0, 0, 0, 0.7); /* Modification de la couleur */
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-size: 16px; /* Modification de la taille de police */
 }
 
-.input-data .underline{
-position: absolute;
-height: 2px;
-width: 100%;
-bottom: 0;
+.input-data .underline {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
 }
 
-.input-data .underline:before{
-position: absolute;
-content: "";
-height: 100%;
-width: 100%;
-background: #4158d0;
-transform: scaleX(0);
-transform-origin: center;
-transition: transform 0.3s ease;
+/* Ajout de styles pour le bouton */
+form button {
+    padding: 10px 20px; /* Ajout de padding */
+    border: none;
+    border-radius: 5px; /* Ajout de bord arrondi */
+    background-color: var(--blue); 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Ajout d'une transition */
+    outline: none; /* Suppression de la bordure lors du focus */
 }
 
-.input-data input:focus ~ .underline:before,
-.input-data input:valid ~ .underline:before{
-transform: scaleX(1);
+form button:hover {
+    background-color: #7a8fea; 
+}
+
+.login a {
+    margin-top: 10px;
+    color: #4158d0;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.login a:hover {
+    color: #31449b; 
+}
+
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35); 
+    z-index: -1;
+
+    overflow-x: hidden;
+
 }

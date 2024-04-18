@@ -26,14 +26,14 @@
 
 <div id="article">
 <div class="newsarticle">
-    <h2>Titre</h2>
-    <img src="img/logo/test.jpg" alt="" class="news-img">
+    <h2>Annot : à bloc !</h2>
+    <img src="img/zzz.jpg" alt="" class="news-img">
     <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/popup/test.jpg">Plus d'infos</button>
 </div>
 <div class="newsarticle">
-    <h2>Titre</h2>
-    <img src="img/logo/test.jpg" alt="" class="news-img">
-    <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/popup/test.jpg">Plus d'infos</button>
+    <h2>[Favoris des JO] Oriane Bertone, la virtuose</h2>
+    <img src="img/aaa.jpg" alt="" class="news-img">
+    <button class="open-popup-btn" data-info="Les favoris pour les JO #5. Dans notre série de portraits dédiée aux prétendants à la breloque, il est temps de nous arrêter sur notre meilleure chance de médaille tricolore avec celle que l’on ne présente plus, celle qui depuis toute petite écume les réalisations extrêmes, puis les podiums internationaux et désormais les plateaux TV : Oriane Bertone." data-image="img/eee.jpg">Plus d'infos</button>
 </div>
 <div class="newsarticle">
     <h2>Titre</h2>

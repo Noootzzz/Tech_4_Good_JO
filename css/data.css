@@ -1,0 +1,67 @@
+@import url('variable.css');
+
+/* Styles pour les titres */
+h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+/* Styles pour l'identifiant PDP */
+#Pdp {
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    width: 150px;
+    height: auto;
+    margin-top: 10vh;
+}
+
+#Pdp img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.infojoueur {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.infojoueur p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    #Pdp {
+        width: 100px;
+        top: 20px;
+        left: 20px;
+    }
+
+    .infojoueur {
+        width: 90%; 
+    }
+}
+
+.pseudo-color{
+    color: #f5a056;
+
+}

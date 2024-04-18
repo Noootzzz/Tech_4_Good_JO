@@ -1,0 +1,238 @@
+@import url("variable.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(220, 244, 242, 1) 50%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+header {
+  font-family: var(--font);
+  width: auto;
+  margin-top: 5vh;
+  padding: 0px 7vw;
+  z-index: 100;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  width: 10%;
+  z-index: 100;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+header nav ul li a {
+  color: var(--black);
+  margin: 0px 2vw;
+  text-decoration: none;
+  font-size: var(--title-font-size);
+}
+
+.don {
+  width: 40vw;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+}
+
+.don h2 {
+  margin-bottom: 2vh;
+}
+.don p {
+  margin-bottom: 2vh;
+}
+.don progress {
+  margin-bottom: 2vh;
+}
+.don button {
+  margin-top: 2vh;
+  font-weight: 800;
+  font-size: var(--title-font-size);
+  width: 100%;
+  padding: 2vh;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--orange);
+  transition: 0.4s;
+}
+.don button:hover {
+  background-color: var(--light-orange);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+progress {
+  width: 100%;
+  height: 30px;
+
+  border: none;
+  border-radius: 10px;
+  overflow: hidden; /* Empêche le contenu de déborder */
+}
+progress::-webkit-progress-bar {
+  background-color: var(--light-blue);
+}
+/* Styles pour la partie remplie de la barre de progression */
+progress::-webkit-progress-value {
+  background-color: var(
+    --blue
+  ); /* Couleur de remplissage pour les navigateurs WebKit */
+}
+
+#download {
+  padding: 3.5vh 5vw;
+  background-color: var(--orange);
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 800;
+  font-size: var(--title-font-size);
+  border-radius: 10px;
+  margin-bottom: 5vh;
+  transition: 0.4s;
+}
+
+#download:hover {
+  background-color: var(--light-orange);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#review {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.reviews {
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 30vw;
+  margin: 1.5vw;
+  padding: 2vh 1vw;
+}
+
+.reviews .identity {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reviews .identity img {
+  margin: 1vh 1vw 1vh 0vw;
+  width: 12%;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: var(light-blue);
+  border-radius: 10px 10px 0 0;
+  color: var(--black);
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  z-index: 2;
+  width: 100%;
+}
+
+.contact a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.social {
+  list-style-type: none;
+  margin: 0;
+  & :hover {
+    cursor: pointer;
+    color: #393939;
+    text-decoration: none;
+    transition: 0.2s;
+  }
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social li a {
+  color: var(--black);
+  text-decoration: none;
+}
+.swiper {
+  width: 90%;
+  border-radius: 10px;
+  height: 70vh;
+  margin: 3vh 0vw;
+  background: var(--black);
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: var(--black);
+  font-weight: bold;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide:hover {
+  cursor: pointer;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 5vw;
+  font-weight: 700;
+  margin: 5vh;
+}
+
+.swiper-slide .text {
+  font-size: 1vw;
+  max-width: 40vh;
+  line-height: 1.3;
+}

@@ -56,6 +56,15 @@ header nav ul li a {
   font-size: var(--title-font-size);
 }
 
+header #news {
+  font-weight: 800;
+}
+
+header a:hover {
+  color: var(--orange);
+  transition: 0.2s;
+}
+
 main {
   height: 75vh;
   width: 100vw;
@@ -216,6 +225,11 @@ main {
   background-image: url("../img/eee.jpg");
 }
 
+#popup-image {
+  width: 40vw;
+  height: 20vh;
+}
+
 #popup {
   min-height: 100vh;
   min-width: 100vw;
@@ -271,9 +285,9 @@ footer {
   background-color: var(light-blue);
   border-radius: 10px 10px 0 0;
   color: var(--black);
-  padding: 20px;
+  padding: 0px 20px 0px 20px;
   text-align: center;
-  margin-top: auto;
+  margin-top: 0px;
   z-index: 2;
   width: 100%;
 }

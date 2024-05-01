@@ -39,9 +39,9 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`id`, `content`, `user_id`, `creea`) VALUES
-(1, 'J\'en ai marre tatitata', 2, NULL),
-(2, 'J\'en ai marre tatitata', 2, NULL),
-(3, 'salut j\'ai un prlbm', 1, NULL),
+(1, 'J\en ai marre tatitata', 2, NULL),
+(2, 'J\en ai marre tatitata', 2, NULL),
+(3, 'salut j\ai un prlbm', 1, NULL),
 (4, 'salut', 1, NULL),
 (5, 'fg', 1, NULL);
 

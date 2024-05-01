@@ -50,28 +50,28 @@
         <div id="left">
             <div class="top">
                 <div class="news">
-                    <h2>Annot : à bloc !</h2>
-                    <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/popup/test.jpg">Plus d'infos</button>
+                    <h2>L’escalade adaptée, un sport inclusif en pleine expansion !</h2>
+                    <button class="open-popup-btn" data-info="L’escalade adaptée est en train de révolutionner la manière dont le sport est perçu et pratiqué par les personnes en situation de handicap. Grâce à des équipements spécialisés, comme des harnais sur mesure et des prothèses conçues pour l’escalade, ce sport devient accessible à tous. Les centres d’escalade adaptent leurs installations pour permettre à chacun, quelles que soient ses capacités physiques, de participer. Cette discipline favorise non seulement l'amélioration de la force physique et de l'endurance, mais elle joue aussi un rôle crucial dans le renforcement de la confiance en soi et de l’autonomie des grimpeurs." data-image="img/zzz.jpg">Plus d'infos</button>
                 </div>
             </div>
             <div class="bottom">
                 <div class="news">
                     <h2>[Favoris des JO] Oriane Bertone, la virtuose</h2>
-                    <button class="open-popup-btn" data-info="Les favoris pour les JO #5. Dans notre série de portraits dédiée aux prétendants à la breloque, il est temps de nous arrêter sur notre meilleure chance de médaille tricolore avec celle que l’on ne présente plus, celle qui depuis toute petite écume les réalisations extrêmes, puis les podiums internationaux et désormais les plateaux TV : Oriane Bertone." data-image="img/eee.jpg">Plus d'infos</button>
+                    <button class="open-popup-btn" data-info="Les favoris pour les JO #5. Dans notre série de portraits dédiée aux prétendants à la breloque, il est temps de nous arrêter sur notre meilleure chance de médaille tricolore avec celle que l’on ne présente plus, celle qui depuis toute petite écume les réalisations extrêmes, puis les podiums internationaux et désormais les plateaux TV : Oriane Bertone." data-image="img/aaa.jpg">Plus d'infos</button>
                 </div>
             </div>
         </div>
         <div id="right">
             <div class="top">
                 <div class="news">
-                    <h2>Annot : à bloc !</h2>
-                    <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/popup/test.jpg">Plus d'infos</button>
+                    <h2>Promouvoir l'inclusivité à travers l'escalade !</h2>
+                    <button class="open-popup-btn" data-info="Intégrer l’inclusivité dans l’escalade va au-delà de l’adaptation des équipements. Il s'agit également de former les instructeurs aux besoins spécifiques des grimpeurs en situation de handicap, en leur fournissant les compétences nécessaires pour adapter leurs méthodes d’enseignement. L’approche inclusive comprend l’installation de systèmes de guidage visuel ou sonore pour les grimpeurs malvoyants, et l’adaptation des voies d’escalade pour ceux ayant des limitations motrices. Ce sport, en mettant l’accent sur l'adaptabilité et l’accessibilité, illustre parfaitement comment les activités physiques peuvent transcender les barrières, offrant une plateforme pour la force et la résilience humaines." data-image="img/anotabloc.jpg">Plus d'infos</button>
                 </div>
             </div>
             <div class="bottom">
                 <div class="news">
                     <h2>Annot : à bloc !</h2>
-                    <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/popup/test.jpg">Plus d'infos</button>
+                    <button class="open-popup-btn" data-info="A 2 mois de la prochaine édition d’Annot à Bloc, Adam Ondra sort la vidéo ou il montre ses runs et sa réussite dans le bon voyage, la voie qu’il qualifie comme « certainement, la voie trad la plus dure au monde ». Retrouvons l’équipe organisatrice d’Annot à bloc pour faire un retour sur l’édition 2023, la visite d’Adam et savoir ce qui se trame pour juin 2024 !" data-image="img/eee.jpg">Plus d'infos</button>
                 </div>
             </div>
         </div>

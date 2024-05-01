@@ -18,7 +18,7 @@
 <main>
 
     <section id="left-section">
-        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+        <h1><span class="cmnt">Comment</span> pouvons nous sensibiliser les grimpeurs afin de réduire l'impact <span class="eco">écologique</span> de l'escalade ?</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum cupiditate mollitia commodi quaerat modi error debitis, nam sed voluptatem facilis quo ab itaque sint ipsum dicta laboriosam, consequuntur magni.
         Corrupti nisi mollitia quidem repudiandae adipisci ducimus sint facere, quasi blanditiis dolor, aliquam corporis nulla esse exercitationem libero sit velit asperiores! Ab, quos nihil! Natus iusto odio optio consectetur tempore.
         Ipsum itaque natus explicabo ab odio quas nostrum expedita ipsam, recusandae consequuntur harum cupiditate praesentium quisquam quidem! Iure porro libero omnis</p>

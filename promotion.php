@@ -26,13 +26,7 @@ require('header.php');
         
         <div class="text" data-swiper-parallax="-100">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-            laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-            Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-            Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-            tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+          Vous êtes l'esprit de la falaise et votre sanctuaire s'est fait bafoué beaucoup trop longtemps. Il est temps reconquérir votre jardin sacré en purifiant le lieu et repousser les pêcheurs. Dans ce but ranger les déchets , nettoyez les tags et rendez le site plus sûr et propre pour tout les visiteurs
           </p>
         </div>
       </div>
@@ -105,6 +99,20 @@ require('header.php');
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit nostrum, mollitia possimus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit nostrum, mollitia possimus.Lorem ipsum, dolor sit ame possimus.</p>
         </div>
     </div>
+
+<div class="vente">
+            <h2>Produits en vente pour nous <span class="stn">soutenir</span></h2>
+                <img class="prdt" src="img/Produit/magnesie.png" alt="produit">
+                <div class="info">
+                  <h2 class="titremgn">
+                    Magnesie Esco
+                  </h2>
+                <p class="desc">La magnésie offre une meilleure adhérence lors de l'escalade et de la gymnastique en absorbant la transpiration des mains. Les produits associés à la magnésie sont tous écoresponsables, soulignant ainsi un engagement envers l'environnement.</p>
+                <p class="prix">3.99€</p>
+                <button>Acheter</button>  
+                </div>    
+</div>
+
 <?php 
 
     require("footer.php");
@@ -155,6 +163,8 @@ require('header.php');
         updateAmounts()
         })
     </script>
+
+
 
 </body>
 </html>

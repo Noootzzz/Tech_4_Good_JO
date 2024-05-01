@@ -4,17 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="css/register.css">
     </head>
     <body>
 
 
-    <h2>S'enregistrer </h2>
         <form action="database.php" method="POST">
+        <h2>S'enregistrer </h2>
+
             <input type="hidden" name="form" value="ajout">
 
 
-            <label for="pseudo">pseudo</label>
+            <label for="pseudo">Pseudo</label>
             <input type="text" name="pseudo" id="pseudo">
 
             <label for="email">Email</label>

@@ -45,33 +45,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </head>
 <body>
-<div class="login">
-    <h2>Connexion</h2>
-    <?php if (isset($error)) : ?>
-        <p><?= $error; ?></p>
-    <?php endif; ?>
+        <div class="login">
+        <h2>Connexion</h2> 
+            <?php if (isset($error)) : ?>
+                <p><?= $error; ?></p>
+            <?php endif; ?>
 
-    <form action="login.php" method="POST">
-<div class="wrapper">
-    <div class="input-data">
-        <label for="pseudo"></label>
-        <input placeholder="Pseudo" type="text" name="pseudo" id="pseudo" required>
-        <div class="underline"></div>
-    </div>
-</div>
-<div class= "wrapper">
-    <div class="input-data">
-            <label for="password"></label>
-            <input placeholder="Mot De Passe" type="password" name="password" id="password" required>
-            <div class="underline"></div>
-    </div>
-</div>
-        <button type="submit">Se connecter</button>
+            <form action="login.php" method="POST">
+        <div class="wrapper">
+            <div class="input-data">
+                <label for="pseudo"></label>
+                <input placeholder="Pseudo" type="text" name="pseudo" id="pseudo" required>
+                <div class="underline"></div>
+            </div>
+        </div>
+        <div class= "wrapper">
+            <div class="input-data">
+                    <label for="password"></label>
+                    <input placeholder="Mot De Passe" type="password" name="password" id="password" required>
+                    <div class="underline"></div>
+            </div>
+        </div>
+                <button type="submit">Se connecter</button>
 
-    </form>
-</div>
+            </form>
+        </div>
 </body>
 </html>
-
 
 

@@ -1,6 +1,72 @@
-#contact   {
-   display: flex;
+*{
    align-items: center;
-   justify-content: center; 
+}
+
+#contact   {
+   backdrop-filter: blur(10px);
+   display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50px;
+   border: 1px solid rgba(128, 128, 128, 0.432);
+   padding: 20px; 
+   width: 35%;
+   margin-top: 5%;
+}
+
+#contact h2 {
+   color: #fff;
+   text-align: center;
+   margin: 10px 0;
+   text-decoration: underline;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   align-items: space-between;
+   padding: 5%;
+}
+
+form textarea {
+   margin-bottom: 5vh; 
+   padding: 10px; 
+   border-radius: 5px; 
+   border: 2px solid rgba(0, 0, 0, 0.2); 
+   font-size: 16px; 
+   outline: none; 
+   resize: none; 
+}
+
+form textarea:focus {
+   border-color: var(--blue); 
+   transition: all 0.5s ease;
+
+}
+
+form label{
+   color: white;
+   padding: 1%;
+}
+
+form button{
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   background-color: var(--blue);
+   color: #fff;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+   outline: none;
+}
+
+form button:hover{
+   opacity: 0.8;
+   transition: all 0.5s ease;
+}
+
+.contact{
+   font-weight: 800;
 }

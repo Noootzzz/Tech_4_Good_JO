@@ -18,6 +18,12 @@ body {
 
 }
 
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .login {
     backdrop-filter: blur(10px);
     display: flex;

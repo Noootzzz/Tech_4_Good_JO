@@ -6,7 +6,6 @@
     <title>Promotion</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/promotion.css">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="icon" href="img/logo/escominimal.png" type="image/x-icon">
 
 </head>
@@ -21,7 +20,7 @@ require('header.php');
 
   <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper">
     <div class="parallax-bg" style="
-          background-image: url(img/img_carousel_3.jpg);
+          background-image: url(img/fonswiper.jpg);
         " data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -48,13 +47,16 @@ Dans les replis majestueux des montagnes, où le vent chante son hymne et les ro
         
         <div class="text" data-swiper-parallax="-100">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-            laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-            Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-            Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-            tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+          - Ramasser des déchets
+          </p>
+          <p>
+          - Éteindre des feux illégaux
+          </p>
+          <p>
+          - Nettoyer des graffitis
+          </p>
+          <p>
+          - Punir les pêcheurs impurs
           </p>
         </div>
       </div>

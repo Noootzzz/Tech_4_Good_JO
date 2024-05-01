@@ -29,10 +29,12 @@ session_start();
 
     <?php
     $randomInfo = [
-        "Niveau de grimpe: Intermediate",
-        "Nombre de route emprunté: 25",
-        "Temp de jeux: 50 hours",
-        "Ton endroit de grimpe preférée: Yosemite National Park"
+        "- 1495 tags nettoyés",
+        "- 752 pêcheurs punis",
+        "- 4412 déchets ramasser",
+        "- 489 feux éteints",
+        "Temp de jeux: 12.2h",
+        
     ];
 
 

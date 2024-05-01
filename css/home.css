@@ -155,6 +155,8 @@ main {
 #trailer {
     display: grid;
     place-items: center;
+    gap: 20px;
+    margin: 50px;
 }
 
 

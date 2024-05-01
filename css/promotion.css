@@ -47,6 +47,11 @@ header nav img {
   z-index: 100;
 }
 
+.logo{
+  width: 20%;
+  z-index: 100;
+  }
+
 header nav ul {
   display: flex;
   list-style: none;
@@ -329,7 +334,9 @@ footer a:hover {
   transition: background-color 0.3s ease;
   outline: none;
   position: absolute;
-  bottom: 10px; 
+  left: 50%;
+  bottom: 20px; 
+  transform: translateX(-50%);
   width: 80%;
 }
 

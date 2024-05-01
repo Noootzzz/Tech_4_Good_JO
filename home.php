@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/home.css">
     
 </head>
@@ -19,9 +19,7 @@
 
     <section id="left-section">
         <h1><span class="cmnt">Comment</span> pouvons nous sensibiliser les grimpeurs afin de réduire l'impact <span class="eco">écologique</span> de l'escalade ?</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad voluptatum cupiditate mollitia commodi quaerat modi error debitis, nam sed voluptatem facilis quo ab itaque sint ipsum dicta laboriosam, consequuntur magni.
-        Corrupti nisi mollitia quidem repudiandae adipisci ducimus sint facere, quasi blanditiis dolor, aliquam corporis nulla esse exercitationem libero sit velit asperiores! Ab, quos nihil! Natus iusto odio optio consectetur tempore.
-        Ipsum itaque natus explicabo ab odio quas nostrum expedita ipsam, recusandae consequuntur harum cupiditate praesentium quisquam quidem! Iure porro libero omnis</p>
+        <p>Bienvenue chez ESCO, une agence de communication basée en France, dont la mission principale est de sensibiliser les grimpeurs à l'importance de la préservation de l'environnement et d'inclure les personnes handicapées dans la pratique de l'escalade. Notre vision est de vivre dans un monde en meilleure santé, tout en continuant à promouvoir le sport.</p>
     </section>
 
     <div id="trailer">

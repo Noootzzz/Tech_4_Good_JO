@@ -6,6 +6,9 @@
     <title>Promotion</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/promotion.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="icon" href="img/logo/escominimal.png" type="image/x-icon">
+
 </head>
 <body>
 <?php 
@@ -26,7 +29,8 @@ require('header.php');
         
         <div class="text" data-swiper-parallax="-100">
           <p>
-          Vous êtes l'esprit de la falaise et votre sanctuaire s'est fait bafoué beaucoup trop longtemps. Il est temps reconquérir votre jardin sacré en purifiant le lieu et repousser les pêcheurs. Dans ce but ranger les déchets , nettoyez les tags et rendez le site plus sûr et propre pour tout les visiteurs
+          
+Dans les replis majestueux des montagnes, où le vent chante son hymne et les roches murmurent des histoires millénaires, repose un sanctuaire oublié des hommes. C'est là, dans l'intimité de la nature sauvage, que réside l'esprit de la falaise, gardien vigilant d'un jardin sacré. Mais hélas, ce lieu de paix et de beauté a été profané, souillé par l'ignorance et la négligence des visiteurs. L'esprit de la falaise, empli d'une tristesse profonde, décide qu'il est temps d'agir.
           </p>
         </div>
       </div>
@@ -35,18 +39,12 @@ require('header.php');
         
         <div class="text" data-swiper-parallax="-100">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-            dictum mattis velit, sit amet faucibus felis iaculis nec. Nulla
-            laoreet justo vitae porttitor porttitor. Suspendisse in sem justo.
-            Integer laoreet magna nec elit suscipit, ac laoreet nibh euismod.
-            Aliquam hendrerit lorem at elit facilisis rutrum. Ut at
-            ullamcorper velit. Nulla ligula nisi, imperdiet ut lacinia nec,
-            tincidunt ut libero. Aenean feugiat non eros quis feugiat.
+          Dans les hauteurs de la montagne, l'esprit de la falaise veillait sur son sanctuaire souillé par les pêcheurs. Déterminé à restaurer la pureté de son jardin sacré, il nettoya les déchets, effaça les tags et rendit le site sûr et propre. Bientôt, la beauté naturelle retrouva sa splendeur, accueillant à nouveau les visiteurs dans un lieu préservé et respecté.
           </p>
         </div>
       </div>
       <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300">Mission</div>
+        <div class="title" data-swiper-parallax="-300">Mission</div>  
         
         <div class="text" data-swiper-parallax="-100">
           <p>
@@ -82,21 +80,21 @@ require('header.php');
                 <img src="img/avatar/avatar_1.jpg" alt="avatar">
                 <h3>Sx</h3>
             </div>
-            <p>Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit consectetur adipisicing elit. In sit nostrum, mollitia possimus.</p>
+            <p>Les jeux vidéo offrent une expérience ludique immersive qui stimule la créativité et la réflexion stratégique. En explorant des mondes virtuels, on développe des compétences cognitives tout en s'amusant.</p>
         </div>
         <div class="reviews">
             <div class="identity">
                 <img src="img/avatar/avatar_2.jpg" alt="avatar">
                 <h3>Nootzzz</h3>
             </div>
-            <p>Lorem ipsum, dolor sit Lorem aborum alias quaerat tempore placeat repellendus. Asperiores ea, omnis tempore illum nesciunt minima. Similique eveniet repudiandae quas eligendi, mollitia voluptatem? amet consectetur adipisicing elit. In sit nostrum, mollitia possimus.</p>
+            <p>L'escalade virtuelle dans les jeux vidéo offre une sensation authentique de défi physique et mental, tout en mettant l'accent sur la sécurité. On ressent la même montée d'adrénaline et le même sentiment d'accomplissement que dans l'escalade réelle.</p>
         </div>
         <div class="reviews">
             <div class="identity">
                 <img src="img/avatar/avatar_3.jpg" alt="avatar">
                 <h3>KillMax</h3>
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit nostrum, mollitia possimus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. In sit nostrum, mollitia possimus.Lorem ipsum, dolor sit ame possimus.</p>
+            <p>Tant dans les jeux vidéo que dans l'escalade, l'intégrité est primordiale. Respecter les règles du jeu ou les protocoles de sécurité de l'escalade montre un engagement envers l'éthique et le fair-play, renforçant ainsi le lien entre le plaisir et la responsabilité. Franchement chapeau au dev du jeux !</p>
         </div>
     </div>
 

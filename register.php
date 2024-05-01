@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>S'enregistrer</title>
         <link rel="stylesheet" href="css/register.css">
+        <link rel="icon" href="img/logo/escominimal.png" type="image/x-icon">
+
     </head>
     <body>
 

@@ -10,6 +10,7 @@ session_start();
     <title>Data</title>
     <link rel="stylesheet" href="css/data.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="icon" href="img/logo/escominimal.png" type="image/x-icon">
 </head>
 <body>
 
